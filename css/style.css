@@ -158,9 +158,21 @@ img {
     }
     .logo{
       width: 100%;
+      height: 50%;
+    }
+    .nav-bar{
+      display: flex;
+      flex-direction: column;
+      height: 30%;
+      justify-content: space-evenly;
+     
+      
     }
     .links{
-      display: none;
+      width: 100%;
+      height: 20%;
+      background-color: #212121;
+    padding: 10px;
     }
   
     .con-b h3{
@@ -210,7 +222,7 @@ img {
     font-size: 30px;
   }
   .con-b h6{
-    font-size: 16px;
+    font-size: 18px;
   }
   .con-a img {
     height: 250px;
@@ -223,5 +235,6 @@ img {
   .con-b{
     margin-left: 50px;
   }
+  
 
 }
