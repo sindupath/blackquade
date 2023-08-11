@@ -168,6 +168,9 @@ img {
      
       
     }
+    .link-box .opt{
+      font-size: 12px;
+    }
     .links{
       width: 100%;
       height: 20%;
@@ -181,7 +184,7 @@ img {
     .con-b h3 span {
       font-size: 20px;
     }
-    .con-b h6{
+    .para{
       font-size: 10px;
     }
     .con-a img {
