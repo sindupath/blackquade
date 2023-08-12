@@ -57,7 +57,6 @@ img {
 
 .link-box a {
   box-sizing: border-box;
-  
   text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -231,7 +230,7 @@ a.current {
 }
 
 .footer {
-  display: flex;
+  display:none;
   height: 20px;
   width: 100%;
   font-size: 13px;
@@ -263,19 +262,19 @@ a.current {
   height: 200px;
   width: 200px;
 }
-.rc{
-  background-color:indianred;
+.rc {
+  background-color: indianred;
   box-shadow: 5px 2px 4px white inset;
 }
-.ra{
+.ra {
   background-color: black;
   box-shadow: 5px 2px 4px white inset;
 }
-.rg{
+.rg {
   background-color: tomato;
   box-shadow: 5px 2px 4px white inset;
 }
-.rp{
+.rp {
   background-color: grey;
   box-shadow: 5px 2px 4px white inset;
 }
