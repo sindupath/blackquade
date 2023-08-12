@@ -57,6 +57,8 @@ img {
 
 .link-box a {
   box-sizing: border-box;
+  
+  text-align: center;
   text-decoration: none;
   font-size: 20px;
   color: #d8ae5e;
@@ -226,4 +228,54 @@ a.current {
   .con-b {
     margin-left: 50px;
   }
+}
+
+.footer {
+  display: flex;
+  height: 20px;
+  width: 100%;
+  font-size: 13px;
+  opacity: 50%;
+  color: white;
+  bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 2px;
+}
+.con {
+  display: none;
+}
+.coni {
+  scale: 1.2;
+}
+
+.con-a .img1 {
+  height: 200px;
+  width: 200px;
+}
+.con-a .img2 {
+  height: 100px;
+  width: 200px;
+}
+.con-a .img3 {
+  height: 200px;
+  width: 200px;
+}
+.rc{
+  background-color:indianred;
+  box-shadow: 5px 2px 4px white inset;
+}
+.ra{
+  background-color: black;
+  box-shadow: 5px 2px 4px white inset;
+}
+.rg{
+  background-color: tomato;
+  box-shadow: 5px 2px 4px white inset;
+}
+.rp{
+  background-color: grey;
+  box-shadow: 5px 2px 4px white inset;
 }
