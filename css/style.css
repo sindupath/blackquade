@@ -166,19 +166,15 @@ a.current {
   }
   .link-box .opt {
     font-size: 12px;
-    overflow: none; 
-    
+    overflow: none;
+
     max-height: 20px;
-    
-    
   }
   .links {
     width: 100%;
     height: 10%;
     background-color: #212121;
     padding: 10px;
-    
-    
   }
 
   .con-b h3 {
@@ -198,9 +194,7 @@ a.current {
     height: 100px;
     width: 100px;
   }
- 
 }
-
 
 /* tablet */
 
@@ -241,7 +235,7 @@ a.current {
 }
 
 .footer {
-  display:none;
+  display: none;
   height: 20px;
   width: 100%;
   font-size: 13px;
@@ -290,6 +284,34 @@ a.current {
   box-shadow: 5px 2px 4px white inset;
 }
 
-.gmail{
+.gmail {
   text-transform: lowercase;
+}
+.g-box{
+  overflow: scroll;
+}
+.g-box .img1 {
+  height: 200px;
+  width: 200px;
+}
+
+.g-box .img2 {
+  height: 300px;
+  width: 200px;
+}
+.g-box .img3 {
+  height: 300px;
+  width: 300px;
+}
+.g-box .img4 {
+  height: 200px;
+  width: 200px;
+}
+.g-box .img5 {
+  height: 300px;
+  width: 250px;
+}
+.g-box video {
+  height: 400px;
+  width: 200px;
 }
