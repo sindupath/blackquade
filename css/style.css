@@ -288,7 +288,8 @@ a.current {
   text-transform: lowercase;
 }
 .g-box{
-  overflow: scroll;
+  display: flex;
+ align-items: center;
 }
 .g-box .img1 {
   height: 200px;
@@ -296,12 +297,12 @@ a.current {
 }
 
 .g-box .img2 {
-  height: 300px;
+  height:280px;
   width: 200px;
 }
 .g-box .img3 {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 .g-box .img4 {
   height: 200px;
@@ -315,3 +316,15 @@ a.current {
   height: 400px;
   width: 200px;
 }
+.about{
+  text-transform: capitalize;
+}
+.imgs:hover{
+ scale: 2;
+ z-index: 2;
+ align-items: center;
+ position: relative;
+}
+.imgs:hover body{
+  
+ }
