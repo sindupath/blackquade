@@ -21,7 +21,7 @@ body {
   width: 100%;
 }
 .g-body{
-  height: 150vh;
+  height: 100;
 }
 
 /* nav bar */
@@ -333,8 +333,11 @@ a.current {
  scale: 1.5;
  z-index: 2;
  align-items: center;
- position: relative;
+ display: block;
+ justify-content: center;
 }
-.imgs:hover ~ .g-box{
-  background: blur(8);
+
+.imgs{
+  border: 10px solid rgb(209, 207, 178);
+  border-radius: 5px;
 }
