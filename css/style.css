@@ -151,57 +151,7 @@ a.current {
 
 /* responsible media queries */
 
-@media only screen and (max-width: 600px) {
-  .container {
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: fit-content;
-  }
-  img {
-    height: 100px;
-    width: 100px;
-  }
-  .logo {
-    width: 100%;
-    height: 50%;
-  }
-  .nav-bar {
-    display: flex;
-    flex-direction: column;
-    height: 30%;
-    justify-content: space-evenly;
-  }
-  .link-box .opt {
-    font-size: 12px;
-    overflow: none;
 
-    max-height: 20px;
-  }
-  .links {
-    width: 100%;
-    height: 10%;
-    background-color: #212121;
-    padding: 10px;
-  }
-
-  .con-b h3 {
-    font-size: 15px;
-  }
-  .con-b h3 span {
-    font-size: 20px;
-  }
-  .para {
-    font-size: 10px;
-  }
-  .con-a img {
-    height: 200px;
-    width: 150px;
-  }
-  .round {
-    height: 100px;
-    width: 100px;
-  }
-}
 
 /* tablet */
 
@@ -299,7 +249,8 @@ a.current {
   align-items: center;
   width: 100%;
   height: 50%;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 .g-box .img1 {
   height:150px;
@@ -338,6 +289,73 @@ a.current {
 }
 
 .imgs{
-  border: 10px solid rgb(209, 207, 178);
+  border: 5px solid rgb(209, 207, 178);
   border-radius: 5px;
+}
+.g-body{
+ 
+  height:120vh;
+  width: 100vw;
+  
+}
+
+.gname{
+ 
+  margin-left:20px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: fit-content;
+  }
+  .g-box{
+    flex-direction: column;
+  }
+ 
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  .logo {
+    width: 100%;
+    height: 50%;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+  }
+  .link-box .opt {
+    font-size: 12px;
+    overflow: none;
+
+    max-height: 20px;
+  }
+  .links {
+    width: 100%;
+    height: 10%;
+    background-color: #212121;
+    padding: 10px;
+  }
+
+  .con-b h3 {
+    font-size: 15px;
+  }
+  .con-b h3 span {
+    font-size: 20px;
+  }
+  .para {
+    font-size: 10px;
+  }
+  .con-a img {
+    height: 200px;
+    width: 150px;
+  }
+  .round {
+    height: 100px;
+    width: 100px;
+  }
+  
 }
