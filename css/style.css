@@ -16,6 +16,13 @@ body {
     rgba(0, 0, 0, 1) 87%
   );
 }
+.c-body{
+  min-height: 130vh;
+  width: 100%;
+}
+.g-body{
+  height: 150vh;
+}
 
 /* nav bar */
 
@@ -287,10 +294,7 @@ a.current {
 .gmail {
   text-transform: lowercase;
 }
-.g-box{
-  display: flex;
- align-items: center;
-}
+
 .g-box .img1 {
   height: 200px;
   width: 200px;
@@ -320,9 +324,11 @@ a.current {
   text-transform: capitalize;
 }
 .imgs:hover{
- scale: 2;
+ scale: 1.5;
  z-index: 2;
  align-items: center;
  position: relative;
 }
-
+.imgs:hover ~ .g-box{
+  background: blur(8);
+}
