@@ -9,12 +9,7 @@ body {
   background-color: #212121;
 
   background: rgb(83, 59, 8);
-  background: linear-gradient(
-    0deg,
-    rgba(83, 59, 8, 1) 11%,
-    rgba(76, 54, 7, 1) 31%,
-    rgba(0, 0, 0, 1) 87%
-  );
+
 }
 .c-body{
   min-height: 130vh;
@@ -148,6 +143,11 @@ a.current {
 
   font-size: 30px;
 }
+.gname{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
 
 /* responsible media queries */
 
@@ -253,21 +253,21 @@ a.current {
   gap: 10px;
 }
 .g-box .img1 {
-  height:150px;
-  width: 150px;
+  height:200px;
+  width: 200px;
 }
 
 .g-box .img2 {
   height:250px;
-  width: 170px;
+  width: 200px;
 }
 .g-box .img3 {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 .g-box .img4 {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 .g-box .img5 {
   height: 250px;
@@ -291,6 +291,7 @@ a.current {
 .imgs{
   border: 5px solid rgb(209, 207, 178);
   border-radius: 5px;
+  
 }
 .g-body{
  
@@ -312,10 +313,16 @@ a.current {
   .g-box{
     flex-direction: column;
   }
+  .g-body{
+    background-color: grey;
+  }
  
   img {
     height: 100px;
     width: 100px;
+  }
+  .g-b2{
+    margin-top: 10px;
   }
   .logo {
     width: 100%;
@@ -330,7 +337,6 @@ a.current {
   .link-box .opt {
     font-size: 12px;
     overflow: none;
-
     max-height: 20px;
   }
   .links {
@@ -354,8 +360,11 @@ a.current {
     width: 150px;
   }
   .round {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
   }
   
+}
+.g-body{
+  background: rgb(83, 59, 8);
 }
