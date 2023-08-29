@@ -299,11 +299,7 @@ a.current {
   height:100;
   width: 100;
   }
-.gname{
- 
-  margin-left:20px;
- top:20px;
-}
+
 @media only screen and (max-width: 600px) {
   
   .container {
@@ -321,7 +317,7 @@ a.current {
     width: 100px;
   }
   .g-b2{
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .logo {
     width: 100%;
