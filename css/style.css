@@ -12,7 +12,7 @@ body {
 
 }
 .c-body{
-  min-height: 130vh;
+  min-height: 100%;
   width: 100%;
 }
 .g-body{
@@ -25,6 +25,7 @@ body {
   width: 100%;
   height: 20%;
   display: flex;
+  overflow-y: none;
 }
 
 .logo {
@@ -295,16 +296,15 @@ a.current {
 }
 .g-body{
  
-  height:120vh;
-  width: 100vw;
-  
-}
-
+  height:100;
+  width: 100;
+  }
 .gname{
  
   margin-left:20px;
 }
 @media only screen and (max-width: 600px) {
+  
   .container {
     flex-direction: column;
     justify-content: space-between;
@@ -313,9 +313,7 @@ a.current {
   .g-box{
     flex-direction: column;
   }
-  .g-body{
-    background-color: grey;
-  }
+  
  
   img {
     height: 100px;
@@ -345,7 +343,17 @@ a.current {
     background-color: #212121;
     padding: 10px;
   }
-
+  .c-body{
+   min-height: 100;
+   display: flex;
+   flex-direction: column;
+  }
+  .cc{
+    justify-content: space-between;
+  }
+.cc .con-b{
+ top: 10px;
+}
   .con-b h3 {
     font-size: 15px;
   }
@@ -367,4 +375,6 @@ a.current {
 }
 .g-body{
   background: rgb(83, 59, 8);
+  width: 100vw;
+  overflow: hidden;
 }
