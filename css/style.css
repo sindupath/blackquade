@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 .g-body{
-  height: 100%;
+  height: 100;
 }
 
 /* nav bar */
@@ -377,6 +377,6 @@ a.current {
 .g-body{
   background: rgb(83, 59, 8);
   width: 100vw;
-  height: 100%;
+  height: 100;
 
 }
