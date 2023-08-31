@@ -345,6 +345,9 @@ a.current {
    display: flex;
    flex-direction: column;
   }
+.gab{
+justify-content: centre;
+}
   .cc{
     justify-content: space-between;
   }
